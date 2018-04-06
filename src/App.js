@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import theme from "./config/theme";
+import base from "./config/routing";
 import Users from "./containers/Users";
 import Albums from "./containers/Albums";
 import Photos from "./containers/Photos";
@@ -36,7 +37,7 @@ const Title = styled.h1`
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Router>
+    <Router basename={base}>
       <Page>
         <Header>
           <Title>
