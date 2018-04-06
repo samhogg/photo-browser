@@ -1,0 +1,26 @@
+{
+  "name": "photo-browser",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-lazyload": "^2.3.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "recompose": "^0.26.0",
+    "styled-components": "^3.2.5",
+    "system-fonts": "^1.1.5",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.1"
+  }
+}
