@@ -1,4 +1,4 @@
-# photo-browser
+# 🌼 photo-browser
 
 A simple app that uses the [jsonplaceholder](https://jsonplaceholder.typicode.com/) API to display a list of users, their albums, and the photos in those albums.
 

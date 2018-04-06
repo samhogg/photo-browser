@@ -6,6 +6,7 @@ import theme from "./config/theme";
 import Users from "./containers/Users";
 import Albums from "./containers/Albums";
 import Photos from "./containers/Photos";
+import Emoji from "./components/Emoji";
 
 const Page = styled.div``;
 
@@ -40,10 +41,7 @@ const App = () => (
         <Header>
           <Title>
             <Link to="/">
-              <span role="img" aria-label="flower icon">
-                🌼
-              </span>{" "}
-              photo-browser
+              <Emoji emoji="🌼" label="photo browser logo" /> photo-browser
             </Link>
           </Title>
         </Header>
