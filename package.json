@@ -2,6 +2,7 @@
   "name": "photo-browser",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://samhogg.github.io/photo-browser",
   "dependencies": {
     "normalize.css": "^8.0.0",
     "react": "^16.3.1",
